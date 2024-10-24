@@ -1,15 +1,15 @@
 # DDPM implementations for videos problems 
 
-Example of produced video forecasting: 
+Example of produced video forecasting for solar corona observations: 
 ![Alt Text](https://github.com/gfrancisco20/video_diffusion/blob/master/Simulation_example.gif)
 
-This repository implement the DDPM for video data of shape [channel, time, height, width] with the several variations.
-[diffusion/Diffusion](https://github.com/gfrancisco20/video_diffusion/blob/master/diffusion.py) implements : 
+This repository implement the DDPM for video data of shape [channel, time, height, width] with the several variations.  
+[diffusion/Diffusion](https://github.com/gfrancisco20/video_diffusion/blob/master/diffusion.py) implements :   
 - vanilla DDPM with beta-linear schedule, [Ho et al. (2020)](https://doi.org/10.48550/arXiv.2006.11239)
 - DDPM with beta-cosine schedule, [Nichol and Dhariwal (2021)](https://doi.org/10.48550/arXiv.2102.09672)
 - DDIM sampling, [Song et al. (2020)](https://doi.org/10.48550/arXiv.2010.02502)
-- Fast-DDPM diffusion, for improved DDIM results, [Jiang et al. 2024](https://doi.org/10.48550/arXiv.2405.14802)
-[diffusion/VDiffusion](https://github.com/gfrancisco20/video_diffusion/blob/master/diffusion.py) implements : 
+- Fast-DDPM diffusion, for improved DDIM results, [Jiang et al. 2024](https://doi.org/10.48550/arXiv.2405.14802)  
+[diffusion/VDiffusion](https://github.com/gfrancisco20/video_diffusion/blob/master/diffusion.py) implements :    
 - Rescaled flawless linear schedule ([Lin et al., 2023]( https://doi.org/10.48550/arXiv.2305.08891)) with v-predictions ([Salimans and Ho, 2022](https://doi.org/10.48550/arXiv.2202.00512)) for improved generation of tail of distribution events  
 
 Two video UNet architectures are proposed, leveraging 1D-temporal convolutions and spatio-temporal attention within the bottleneck for moderate complexity:
