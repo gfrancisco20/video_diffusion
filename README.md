@@ -1,6 +1,6 @@
 # DDPM implementations for videos problems 
 
-Example of produced video forecasting for solar corona observations (94Å): 
+Example of probabilistic video forecast for solar corona observations (94Å): 
 ![Alt Text](https://github.com/gfrancisco20/video_diffusion/blob/master/Simulation_example.gif)
 
 This repository implements the DDPM for video data of shape [channel, time, height, width] with the following variations.    
