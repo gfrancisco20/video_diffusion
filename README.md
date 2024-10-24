@@ -19,9 +19,8 @@ Two video UNet architectures are proposed, leveraging 1D-temporal convolutions a
 - [module/PaletteModelVideoDeep](https://github.com/gfrancisco20/video_diffusion/blob/master/module.py) implements 5 feature-map resolution for more complex problems
 
 The [training](https://github.com/gfrancisco20/video_diffusion/blob/master/training.py), [dataloaders](https://github.com/gfrancisco20/video_diffusion/blob/master/dataloaders.py), [metrics](https://github.com/gfrancisco20/video_diffusion/blob/master/metrics.py), are usage examples corresponding to the video forecasting of the solar corona presented in the paper:
-:  
-[Generative Simulations of The Solar Corona Evolution With Denoising Diffusion :
-Proof of Concept]()
+:    
+[Generative Simulations of The Solar Corona Evolution With Denoising Diffusion : Proof of Concept]()    
 The interactive notebook [new_predictions.ipynb](https://github.com/gfrancisco20/video_diffusion/blob/master/training.py) is an example of end-to-end pipelline to perform new prediction with the resulting model.
 ```
 ```
